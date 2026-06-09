@@ -5,6 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Saibr — independent software studio</title>
 <meta name="description" content="Saibr is an Australian software studio building practical mobile and web apps, including CartChkr and BBallr.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
@@ -12,62 +15,121 @@
   <div class="brand">saibr<span class="dot">.</span></div>
   <nav class="links">
     <a href="#products">Products</a>
-    <a href="#contact">Contact</a>
-    <a href="/privacy.html">Privacy</a>
-    <a href="/terms.html">Terms</a>
+    <a href="#work">How we work</a>
+    <a href="#about">About</a>
+    <a href="#contact" class="btn btn-primary btn-sm">Get in touch</a>
   </nav>
 </div></header>
 
 <main>
+  <!-- HERO -->
   <section class="hero"><div class="wrap">
+    <span class="eyebrow">Independent software studio · Melbourne</span>
     <h1>We build practical apps Australians actually use.</h1>
-    <p class="lead">Saibr is an independent software studio based in Melbourne. We design, build and run our own consumer mobile and web products — and ship them end to end.</p>
+    <p class="lead">Saibr designs, builds and runs its own consumer mobile and web products — shipped end to end, with clear pricing and privacy by default.</p>
+    <div class="cta">
+      <a href="#products" class="btn btn-primary">See what we make</a>
+      <a href="#contact" class="btn btn-ghost">Contact us</a>
+    </div>
   </div></section>
 
+  <!-- PRODUCTS -->
   <section class="sec" id="products"><div class="wrap">
-    <h2>What we make</h2>
+    <div class="head">
+      <h2>What we make</h2>
+      <p>A small number of genuinely useful everyday tools — engineered and operated in-house.</p>
+    </div>
     <div class="grid">
       <div class="card">
-        <span class="tag">Live</span>
-        <h3>CartChkr</h3>
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.7 13.4a2 2 0 0 0 2 1.6h9.7a2 2 0 0 0 2-1.6L23 6H6"/></svg></div>
+        <h3>CartChkr<span class="pill live">Live</span></h3>
         <p>Compares your Woolworths and Coles shop and moves the cheaper items across in one click. Free browser extension, with a mobile app on the way. <a href="https://cartchkr.com.au">cartchkr.com.au</a></p>
       </div>
       <div class="card">
-        <span class="tag">Live</span>
-        <h3>BBallr</h3>
+        <div class="ico sky"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20M2 12h20"/></svg></div>
+        <h3>BBallr<span class="pill live">Live</span></h3>
         <p>Live scoring and stats for junior basketball — built for the families and clubs at the game.</p>
       </div>
       <div class="card">
-        <span class="tag">In development</span>
-        <h3>Money education for kids</h3>
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg></div>
+        <h3>Money education for kids<span class="pill soon">In development</span></h3>
         <p>A simple, safe way to teach children about saving and spending. In development.</p>
       </div>
       <div class="card">
-        <span class="tag">Studio</span>
-        <h3>More on the way</h3>
+        <div class="ico sky"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg></div>
+        <h3>More on the way<span class="pill soon">Studio</span></h3>
         <p>We work on a small number of products at a time and build the shared platform that runs them all.</p>
       </div>
     </div>
   </div></section>
 
-  <section class="sec" id="about"><div class="wrap">
-    <h2>About</h2>
-    <p style="color:var(--muted);max-width:680px">Saibr is a small, independent Australian software studio. We focus on genuinely useful everyday tools — designed, engineered and operated in-house. We care about doing right by the people who use what we make: clear pricing, honest design, and privacy by default.</p>
+  <!-- HOW WE WORK -->
+  <section class="sec tint-mint" id="work"><div class="wrap">
+    <div class="head">
+      <h2>How we work</h2>
+      <p>From first idea to a maintained product Australians can rely on.</p>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <div class="n">01</div>
+        <h3>Find a real problem</h3>
+        <p>We start with everyday friction — a slow chore, an unfair cost, a job that should be simpler.</p>
+      </div>
+      <div class="step">
+        <div class="n">02</div>
+        <h3>Build it properly</h3>
+        <p>Designed, engineered and tested in-house. No dark patterns, no surprise fees, privacy by default.</p>
+      </div>
+      <div class="step">
+        <div class="n">03</div>
+        <h3>Run it for the long term</h3>
+        <p>We operate and support what we ship, and keep improving it on the shared platform behind every product.</p>
+      </div>
+    </div>
   </div></section>
 
+  <!-- STATS -->
+  <section class="sec"><div class="wrap">
+    <div class="stats">
+      <div class="stat"><div class="big">2</div><div class="lbl">Products live today</div></div>
+      <div class="stat"><div class="big">100%</div><div class="lbl">Built &amp; run in-house</div></div>
+      <div class="stat"><div class="big">AU</div><div class="lbl">Melbourne, Victoria</div></div>
+    </div>
+  </div></section>
+
+  <!-- ABOUT -->
+  <section class="sec tint-mint" id="about"><div class="wrap">
+    <div class="head">
+      <h2>About</h2>
+      <p>Saibr is a small, independent Australian software studio. We focus on genuinely useful everyday tools — designed, engineered and operated in-house. We care about doing right by the people who use what we make: clear pricing, honest design, and privacy by default.</p>
+    </div>
+  </div></section>
+
+  <!-- CONTACT -->
   <section class="sec contact" id="contact"><div class="wrap">
-    <h2>Contact</h2>
-    <dl>
-      <dt>Email</dt><dd><a href="mailto:contact@saibr.com.au">contact@saibr.com.au</a></dd>
-      <dt>Location</dt><dd>Melbourne, Victoria, Australia</dd>
-      <dt>Business</dt><dd>Saibr <!-- TODO: add registered entity name + ABN once registered --></dd>
-    </dl>
+    <div class="band">
+      <div>
+        <h2>Get in touch</h2>
+        <p>Questions, partnerships or support — we'd love to hear from you.</p>
+      </div>
+      <a href="mailto:contact@saibr.com.au" class="btn btn-primary">contact@saibr.com.au</a>
+    </div>
+    <div style="margin-top:34px">
+      <dl>
+        <dt>Email</dt><dd><a href="mailto:contact@saibr.com.au">contact@saibr.com.au</a></dd>
+        <dt>Location</dt><dd>Melbourne, Victoria, Australia</dd>
+        <dt>Business</dt><dd>Saibr <!-- TODO: add registered entity name + ABN once registered --></dd>
+      </dl>
+    </div>
   </div></section>
 </main>
 
-<footer><div class="wrap row">
-  <div>© 2026 Saibr. All rights reserved.</div>
-  <div><a href="/privacy.html">Privacy</a> &nbsp;·&nbsp; <a href="/terms.html">Terms</a> &nbsp;·&nbsp; <a href="#contact">Contact</a></div>
+<footer><div class="wrap">
+  <div class="word">saibr<span class="dot">.</span></div>
+  <div class="row">
+    <div>© 2026 Saibr. All rights reserved.</div>
+    <div><a href="/privacy.html">Privacy</a> &nbsp;·&nbsp; <a href="/terms.html">Terms</a> &nbsp;·&nbsp; <a href="#contact">Contact</a></div>
+  </div>
 </div></footer>
 </body>
 </html>
